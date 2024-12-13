@@ -1,7 +1,3 @@
----
-layout: default
-title: Rahul Kumar Rai - Personal Website
----
 
 # Rahul Kumar Rai
 
