@@ -1,13 +1,40 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px; /* Center the content */
+    margin: 0 auto; /* Center alignment */
 }
 
 header {
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* Space between header and content */
+}
+
+h1, h2, h3 {
+    color: #35424a; /* Header color */
+}
+
+section {
+    background: #ffffff; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Padding inside sections */
+    margin-bottom: 20px; /* Space between sections */
+}
+
+.project {
+    margin-bottom: 15px; /* Space between project entries */
 }
 
 footer {
+    text-align: center;
+    padding: 10px 0;
     background: #35424a;
     color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
